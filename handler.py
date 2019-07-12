@@ -19,6 +19,6 @@ def send_reponse(body):
         'chat_id': chat_id,
         'text': 'you said: ' + message['text']
     }
-    url += "?chat_id=" + str(params['chat_id'])
+    url += "chat_id=" + str(params['chat_id'])
     url += "&text=" + params['text']
     requests.get(url)
