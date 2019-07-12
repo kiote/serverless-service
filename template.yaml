@@ -1,0 +1,7 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Resources:
+  HelloWorld:
+    Type: AWS::Serverless::Function
+    Properties:
+      Runtime: python3.7
+      Handler: handler.lambda_handler

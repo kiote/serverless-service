@@ -1,0 +1,54 @@
+{
+    "resource": "/message",
+    "path": "/message",
+    "httpMethod": "POST",
+    "headers": {
+        "Accept-Encoding": "gzip, deflate",
+        "Content-Type": "application/json",
+        "Host": "soxuqpa3yh.execute-api.us-east-1.amazonaws.com",
+        "X-Amzn-Trace-Id": "Root=1-5d284fe4-52c99ea3595aaa0efa12f639",
+        "X-Forwarded-For": "149.154.167.199",
+        "X-Forwarded-Port": "443",
+        "X-Forwarded-Proto": "https"
+    },
+    "multiValueHeaders": {
+        "Accept-Encoding": [
+            "gzip, deflate"
+        ],
+        "Content-Type": [
+            "application/json"
+        ],
+        "Host": [
+            "soxuqpa3yh.execute-api.us-east-1.amazonaws.com"
+        ],
+        "X-Amzn-Trace-Id": [
+            "Root=1-5d284fe4-52c99ea3595aaa0efa12f639"
+        ],
+        "X-Forwarded-For": [
+            "149.154.167.199"
+        ],
+        "X-Forwarded-Port": [
+            "443"
+        ],
+        "X-Forwarded-Proto": [
+            "https"
+        ]
+    },
+    "requestContext": {
+        "resourceId": "yur0l3",
+        "resourcePath": "/message",
+        "httpMethod": "POST",
+        "extendedRequestId": "ctFrqHFxIAMFrQg=",
+        "requestTime": "12/Jul/2019:09:16:20 +0000",
+        "path": "/prod/message",
+        "accountId": "388268068848",
+        "protocol": "HTTP/1.1",
+        "stage": "prod",
+        "domainPrefix": "soxuqpa3yh",
+        "requestTimeEpoch": 1562922980208,
+        "requestId": "b5f8874e-a485-11e9-905a-a72b447fcd5e",
+        "domainName": "soxuqpa3yh.execute-api.us-east-1.amazonaws.com",
+        "apiId": "soxuqpa3yh"
+    },
+    "body": "{\"message\": {\"text\": \"hi\"}}"
+}
