@@ -50,5 +50,5 @@
         "domainName": "soxuqpa3yh.execute-api.us-east-1.amazonaws.com",
         "apiId": "soxuqpa3yh"
     },
-    "body": "{\"message\": {\"text\": \"hi\"}}"
+    "body": "{\"message\": {\"text\": \"hi\", \"chat\": {\"id\": 12}}}"
 }
