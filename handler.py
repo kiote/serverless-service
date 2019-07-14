@@ -9,6 +9,19 @@ def lambda_handler(event, context):
     send_reponse(telegram_message)
     client = boto3.client('dynamodb')
     chat_id = "12"
+    
+    # Create an SNS client
+    sns = boto3.client('sns')
+    
+    # Publish a simple message to the specified SNS topic
+    response = sns.publish(
+        TopicArn='arn:aws:sns:eu-north-1:388268068848:telegram-realestate',    
+        Message='Hello World!',    
+    )
+    
+    # Print out the response
+    print(response)
+
     ttl = "1563580800"
     message = 'Call Me Today'
     response = client.put_item(
